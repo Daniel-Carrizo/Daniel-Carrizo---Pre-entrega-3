@@ -71,7 +71,7 @@ a:hover{
     gap: 0;
     grid-template: 
    "navbar" 
-    "header" 
+    "header"
     "main" auto
     "footer" auto; 
  }
@@ -90,6 +90,13 @@ a:hover{
     grid-area: main;
     background-color: #FFBABA;
 
+  }
+
+  .top-container {
+   background-color: #7B2869;
+   margin: 0px;
+   position: relative;
+   padding-top: 100px;
  }
 
  .bottom-cloud {
@@ -136,10 +143,6 @@ a:hover{
 
 
 
- .sidebar {
-    grid-area: sidebar;
-    background-color: #FFBABA;
- }
 
 .footer {
     grid-area: footer;
