@@ -1,5 +1,4 @@
 *{
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -10,7 +9,7 @@ html {
 
 
 body {
-    background-color:#FFBABA;
+  background-color: #FFBABA;
     font-size: 1.5rem;
     min-height: 100%;
     font-family: 'Merriweather', serif;
@@ -64,7 +63,6 @@ a:hover{
 .grid-layout >*{
     box-shadow: -1px 1px 7px 0px black (0, 0, 0, 0.75);
     border-radius: 4px;
-    padding: 10px;
     text-align: center;
  }
 
@@ -72,8 +70,8 @@ a:hover{
     display: grid;
     gap: 0;
     grid-template: 
-    "navbar" 50px
-    "header" 100px
+   "navbar" 
+    "header" 
     "main" auto
     "footer" auto; 
  }
@@ -91,7 +89,53 @@ a:hover{
  .main {
     grid-area: main;
     background-color: #FFBABA;
+
  }
+
+ .bottom-cloud {
+  position: absolute;
+  left: 200px;
+  top: 300px; }
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px; }
+
+.EHlogo {
+  height: 50%;
+  width: 100%;
+  max-width: 700px; }
+
+.circlephoto {
+  height: 50%;
+  width: 100%;
+  max-width: 350px; }
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left; }
+
+.intro {
+  width: 50%;
+  margin: auto; }
+
+.profile {
+  padding: 50px; }
+
+.teachericon {
+  width: 25%;
+  float: left;
+  margin-right: 30px; }
+
+.computericon {
+  width: 25%;
+  float: right;
+  margin-left: 30px; }
+
+
+
  .sidebar {
     grid-area: sidebar;
     background-color: #FFBABA;
